@@ -1,0 +1,142 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* cambio */
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15pt;
+    }
+    /* cambio */
+    .aling-full-tittle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin: 25%;
+        justify-content: center;
+    }
+    /* cmabio */
+    h1 {
+        font-size: 60pt;
+        font-weight: bold;
+    }
+    /* cambio */
+    h2 {
+        font-size: 40pt;
+        font-weight: bold;
+        color: rgb(143, 141, 81);
+    
+    }
+
+    
+    .card {    
+        display: flex;
+        display: inline-block;
+        width: 30%;
+        height: 300px;
+        border: solid 1px white;    
+        margin: 3.3%;
+    }
+
+    .section-three {
+        flex-wrap: wrap;
+        display: flex; 
+        justify-content: center;         
+        /* display: inline-block; */
+        justify-content: space-between ; 
+        justify-content: space-around; 
+    }
+
+    .header-one {        
+        width: auto;
+        height: 50px;
+        background-color: rgb(43, 43, 43);
+        border-bottom: 1px  white;
+    }
+
+    .margin-text { 
+        margin-bottom: 40px;
+        margin-top: 50px;
+        width: 310px;
+    }
+
+    .border_card {
+        border: solid 1px white;
+        border-radius:5px;
+        margin: 40px 20px;
+        width: 320px;
+        height: 300px;
+        font-family: 'Montserrat', sans-serif;        
+    }
+
+    .menu_container_card {        
+        background:rgb(143, 141, 81);
+        border-bottom: solid 1px #E1DEDE;
+        border-radius: 5px 5px 0px 0px;
+        padding: 10px;
+        width: auto;
+        height: 30px;
+    }
+
+    .menu_title {        
+        padding: 10px 5px;
+    }
+
+    .body_card {        
+        padding: 5px 15px;
+    }
+
+    .title_first {
+        color: rgb(143, 141, 81);
+        margin: 8px;
+    }
+
+    .title_second {
+        color:rgb(90, 88, 33);
+        font-family: cursive;
+    }
+
+    .paragraph_first {        
+        text-align: center;
+        color: white;
+    }
+
+    .subtitle-card {
+        color: rgb(41, 40, 15);
+    }
+
+    .imagen-principal-inicio {
+        background-image: url(https://wallpapertag.com/wallpaper/full/3/9/9/944975-computer-hardware-wallpaper-3840x2160-large-resolution.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .imagen-section-three {
+        background-image: url("../Img/fondo-2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    h3 {
+        color: white;
+    }
+    
+    .text-center {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .paragraph_second {
+        text-align: center;
+        color: white;
+        font-size: 23pt;
+    }
+}
